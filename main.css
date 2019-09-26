@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, minmax(10em, 1fr));
+    grid-template-areas: "uno dos tres cuatro cinco"
+    "seis siete ocho nueve diez"
+    "once doce trece catorce quince"
+    "dieciseis diecisiete dieciocho diecinueve veinte"
+    "veintiuno veintidos veintitres veinticuatro veinticinco"; 
+}
+body {
+    overflow: hidden;
+    
+}
+
+.uno {
+    grid-area: uno;
+    background-color: unset;
+}
+.dos {
+       grid-area: dos;
+       background-color: unset;
+}
+.tres {
+    grid-area:  tres;
+    background-color: unset;
+}
+.cuatro{
+    grid-area: cuatro;
+    background-color: unset;
+}
+.cinco{
+    grid-area: cinco;
+    background-color: unset;
+   }
+   .seis {
+    grid-area: seis;
+    background-color: unset;
+}
+.siete {
+       grid-area: siete;
+       background-color: unset;
+}
+.ocho {
+    grid-area:  ocho;
+    background-color: unset;
+}
+.nueve{
+    grid-area: nueve;
+    background-color: unset;
+}
+.diez{
+    grid-area: diez;
+    background-color: unset;
+   }
+   .once {
+    grid-area: once;
+    background-color: unset;
+}
+.doce {
+       grid-area: doce;
+       background-color: unset;
+}
+.trece {
+    grid-area:  trece;
+    background-color: unset;
+}
+.catorce{
+    grid-area: catorce;
+    background-color: unset;
+}
+.quince{
+    grid-area: quince;
+    background-color: unset;
+   }
+   .dieciseis {
+    grid-area: dieciseis;
+    background-color: unset;
+}
+.diecisiete {
+       grid-area: diecisiete;
+       background-color: unset;
+}
+.dieciocho {
+    grid-area:  dieciocho;
+    background-color: unset;
+}
+.diecinueve{
+    grid-area: diecinueve;
+    background-color: unset;
+}
+.veinte{
+    grid-area: veinte;
+    background-color: unset;
+   }
+   .veintiuno {
+    grid-area: veintiuno;
+    background-color: unset;
+}
+.veintidos {
+       grid-area: veintidos;
+       background-color: unset;
+}
+.veintitres {
+    grid-area:  veintitres;
+    background-color: unset;
+}
+.veinticuatro{
+    grid-area: veinticuatro;
+    background-color: unset;
+}
+.veinticinco{
+    grid-area: veinticinco;
+    background-color: unset;
+   }
